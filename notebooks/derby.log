@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Tue Apr 21 18:53:51 CEST 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0171-9da9-016a-0000121cc4e0 
-on database directory C:\Users\Arnaud\PycharmProjects\AAForB_Assignment3\notebooks\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@5b76cde 
-Loaded from file:/C:/Users/Arnaud/PycharmProjects/AAForB_Assignment3/spark-2.4.5-bin-hadoop2.7/jars/derby-10.12.1.1.jar
+Thu Apr 30 20:34:55 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0171-cc5e-c512-000010a39540 
+on database directory C:\Users\Pieter-Jan\Documents\University\KuLeuven\Semester2\AA\assignment3\AAForB_Assignment3\notebooks\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@54229c45 
+Loaded from file:/C:/Users/Pieter-Jan/Documents/University/KuLeuven/Semester2/AA/assignment3/AAForB_Assignment3/spark-2.4.5-bin-hadoop2.7/jars/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_241-b07
-user.dir=C:\Users\Arnaud\PycharmProjects\AAForB_Assignment3\notebooks
+user.dir=C:\Users\Pieter-Jan\Documents\University\KuLeuven\Semester2\AA\assignment3\AAForB_Assignment3\notebooks
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0
