@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Thu Apr 30 20:34:55 CEST 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0171-cc5e-c512-000010a39540 
-on database directory C:\Users\Pieter-Jan\Documents\University\KuLeuven\Semester2\AA\assignment3\AAForB_Assignment3\notebooks\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@54229c45 
+Thu Apr 30 21:15:08 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0171-cc83-9763-000018e4c708 
+on database directory C:\Users\Pieter-Jan\Documents\University\KuLeuven\Semester2\AA\assignment3\AAForB_Assignment3\notebooks\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@2e43ab2e 
 Loaded from file:/C:/Users/Pieter-Jan/Documents/University/KuLeuven/Semester2/AA/assignment3/AAForB_Assignment3/spark-2.4.5-bin-hadoop2.7/jars/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_241-b07
