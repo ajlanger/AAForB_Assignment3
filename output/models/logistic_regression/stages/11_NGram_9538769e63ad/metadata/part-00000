@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.NGram","timestamp":1588515496144,"sparkVersion":"2.4.5","uid":"NGram_9538769e63ad","paramMap":{"inputCol":"added_words","outputCol":"ngrams_added","n":2},"defaultParamMap":{"outputCol":"NGram_9538769e63ad__output","n":2}}
