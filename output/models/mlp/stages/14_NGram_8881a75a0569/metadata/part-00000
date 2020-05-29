@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.NGram","timestamp":1589044580969,"sparkVersion":"2.4.5","uid":"NGram_8881a75a0569","paramMap":{"outputCol":"ngrams_removed","inputCol":"removed_words","n":2},"defaultParamMap":{"outputCol":"NGram_8881a75a0569__output","n":2}}

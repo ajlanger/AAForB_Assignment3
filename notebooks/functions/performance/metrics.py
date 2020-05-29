@@ -5,9 +5,10 @@ import itertools
 
 def plot_confusion_matrix(cm, classes,
                           normalize=False,
-                          title='Confusion matrix',
+                          title=None,
                           cmap=plt.cm.Blues,
-                          y_title=1.10):
+                          y_title=1.10,
+                          colorbar=False):
     """
     This function prints and plots the confusion matrix.
     Normalization can be applied by setting `normalize=True`.
@@ -21,8 +22,10 @@ def plot_confusion_matrix(cm, classes,
     print(pd.DataFrame(cm, columns=classes, index=classes))
 
     plt.imshow(cm, interpolation='nearest', cmap=cmap)
-    plt.title(title, y=y_title)
-    plt.colorbar()
+    if title is not None:
+        plt.title(title, y=y_title)
+    if colorbar:
+        plt.colorbar()
     tick_marks = np.arange(len(classes))
     plt.xticks(tick_marks, classes, rotation=45)
     #plt.yticks(tick_marks, classes, rotation=45)
@@ -34,7 +37,7 @@ def plot_confusion_matrix(cm, classes,
                  horizontalalignment="center",
                  color="white" if cm[i, j] > thresh else "black")
         
-   
-    plt.tight_layout()
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
+    plt.tight_layout()
+    
