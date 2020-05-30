@@ -6,9 +6,11 @@ import itertools
 def plot_confusion_matrix(cm, classes,
                           normalize=False,
                           title=None,
-                          cmap=plt.cm.Blues,
-                          y_title=1.10,
-                          colorbar=False):
+                          cmap=plt.cm.PuBu,
+                          y_title=1.05,
+                          colorbar=False,
+                          xlabel="True Label",
+                          ylabel="Predicted Label"):
     """
     This function prints and plots the confusion matrix.
     Normalization can be applied by setting `normalize=True`.
@@ -36,8 +38,11 @@ def plot_confusion_matrix(cm, classes,
         plt.text(j, i, format(cm[i, j], fmt),
                  horizontalalignment="center",
                  color="white" if cm[i, j] > thresh else "black")
-        
-    plt.ylabel('True label')
-    plt.xlabel('Predicted label')
+     
+    if xlabel is not None:
+        plt.xlabel('Predicted label')
+    if ylabel is not None:    
+        plt.ylabel('True label')
+
     plt.tight_layout()
     
