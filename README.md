@@ -1,3 +1,6 @@
-# AAForB_Assignment3
+# Advanced Analytics in Business: Assignment 3
 
-This repository was created to work in team on assignment 3 from the lecture on Advanced Analytics in Business.
+Contributors:
+ - Arnaud Langeraert
+ - Victor Gueorguiev
+ - Pieter-Jan Inghelbrecht
